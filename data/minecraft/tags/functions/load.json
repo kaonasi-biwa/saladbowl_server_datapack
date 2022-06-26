@@ -1,5 +1,6 @@
 {
     "values": [
-        "saladbowl_server_oni:load"
+        "saladbowl_server_oni:load",
+        "_em:_init"
     ]
 }
