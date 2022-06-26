@@ -4,4 +4,4 @@ forceload add 0 0 0 0
 execute unless entity @e[tag=onigokko_marker] run summon marker 0 0 0 {Tags:["onigokko_marker"]}
 
 scoreboard objectives add kaonasi_onigokko_setting dummy
-scoreboard players set @e[tag=saladbowl_server_oni,scores={kaonasi_onigokko_setting=..0}] kaonasi_onigokko_setting 1
+execute unless entity @e[tag=saladbowl_server_oni,scores={kaonasi_onigokko_setting=1..}] run scoreboard players set @e[tag=saladbowl_server_oni] kaonasi_onigokko_setting 1
