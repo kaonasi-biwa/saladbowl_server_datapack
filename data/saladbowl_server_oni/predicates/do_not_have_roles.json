@@ -9,6 +9,13 @@
                 "predicate": {
                     "nbt": "{Tags:[\"kaonasi_roles_oni\"]}"
                 }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Tags:[\"kaonasi_roles_tousousha\"]}"
+                }
             }
         ]
     }
