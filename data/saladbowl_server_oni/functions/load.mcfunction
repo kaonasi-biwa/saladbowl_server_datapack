@@ -19,3 +19,7 @@ scoreboard objectives add kaonasi_onigokko_setting_time_tm dummy
 scoreboard objectives add kaonasi_onigokko_setting_time_ts dummy
 
 scoreboard objectives add kaonasi_onigokko_setting_role_count dummy
+
+scoreboard objectives add kaonasi_onigokko_setting_role_display dummy "役職の人数"
+scoreboard players set 鬼/インポスター kaonasi_onigokko_setting_role_display 0
+scoreboard objectives setdisplay sidebar kaonasi_onigokko_setting_role_display
