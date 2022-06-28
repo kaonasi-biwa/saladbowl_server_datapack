@@ -17,3 +17,5 @@ scoreboard objectives add kaonasi_onigokko_setting_time dummy
 execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_rule=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_rule 600
 scoreboard objectives add kaonasi_onigokko_setting_time_tm dummy
 scoreboard objectives add kaonasi_onigokko_setting_time_ts dummy
+
+scoreboard objectives add kaonasi_onigokko_setting_role_count dummy

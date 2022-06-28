@@ -1,0 +1,2 @@
+execute as @a at @s if block ~ ~-2 ~ barrel{Lock:"onikime"} run tag @s add kaonasi_oni_roulette
+execute as @a[tag=kaonasi_oni_roulette] at @s unless block ~ ~-2 ~ barrel{Lock:"onikime"} run tag @s remove kaonasi_oni_roulette
