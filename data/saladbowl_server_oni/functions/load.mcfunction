@@ -6,6 +6,7 @@ tellraw @a [{"text":"[OnigokkoDatapack]"},{"text":"\nVersion:1.0"},{"text":"\nAu
 forceload add 0 0 0 0
 
 scoreboard objectives add kaonasi_onigokko_number dummy
+scoreboard players set $1 kaonasi_onigokko_number 1
 scoreboard players set $60 kaonasi_onigokko_number 60
 
 
