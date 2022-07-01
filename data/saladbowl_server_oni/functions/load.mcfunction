@@ -9,6 +9,9 @@ scoreboard objectives add kaonasi_onigokko_number dummy
 scoreboard players set $1 kaonasi_onigokko_number 1
 scoreboard players set $60 kaonasi_onigokko_number 60
 
+team add Nigerui "逃走者"
+team add Oni "鬼"
+
 
 scoreboard objectives add kaonasi_onigokko_setting_rule dummy
 execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_rule=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_rule 1
@@ -24,3 +27,5 @@ scoreboard objectives add kaonasi_onigokko_setting_role_display dummy "役職の
 scoreboard players set 鬼/インポスター kaonasi_onigokko_setting_role_display 0
 scoreboard players set 逃走者/クルー kaonasi_onigokko_setting_role_display 0
 scoreboard objectives setdisplay sidebar kaonasi_onigokko_setting_role_display
+
+scoreboard objectives add kaonasi_onigokko_setting_role_count dummy
