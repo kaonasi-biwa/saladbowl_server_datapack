@@ -29,3 +29,7 @@ scoreboard players set 逃走者/クルー kaonasi_onigokko_setting_role_display
 scoreboard objectives setdisplay sidebar kaonasi_onigokko_setting_role_display
 
 scoreboard objectives add kaonasi_onigokko_setting_role_count dummy
+
+
+scoreboard objectives add kaonasi_onigokko_setting_win_oni__all_kill dummy
+scoreboard objectives add kaonasi_onigokko_setting_win_tousousha__all_mission dummy
