@@ -1,2 +1,2 @@
-scoreboard players remove @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator___time 1
+scoreboard players remove @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator__time 1
 function saladbowl_server_oni:setting/role_setting/spectator/start_time/
