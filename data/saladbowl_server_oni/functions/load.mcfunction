@@ -14,10 +14,9 @@ team add Oni "鬼"
 
 
 scoreboard objectives add kaonasi_onigokko_setting_rule dummy
-execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_rule=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_rule 1
 
 scoreboard objectives add kaonasi_onigokko_setting_time dummy
-execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_rule=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_rule 600
+execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_time=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_time 600
 scoreboard objectives add kaonasi_onigokko_setting_time_tm dummy
 scoreboard objectives add kaonasi_onigokko_setting_time_ts dummy
 
@@ -35,3 +34,10 @@ scoreboard objectives add kaonasi_onigokko_setting_win_oni__all_kill dummy
 scoreboard objectives add kaonasi_onigokko_setting_win_tousousha__all_mission dummy
 
 scoreboard objectives add kaonasi_onigokko_setting_map dummy
+
+scoreboard objectives add kaonasi_onigokko_game_now dummy
+
+scoreboard objectives add kaonasi_onigokko_setting_start_spectator__time dummy
+execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_spectator__time=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator__time 10
+scoreboard objectives add kaonasi_onigokko_setting_start_spectator__time_tm dummy
+scoreboard objectives add kaonasi_onigokko_setting_start_spectator__time_ts dummy
