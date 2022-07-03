@@ -9,6 +9,6 @@ tellraw @s [{"text":"[-10分] ","color":"blue","bold":true,"clickEvent":{"action
 
 tellraw @s [{"text":"[1秒] ","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/spectator/start_time/set/set_1s"}},{"text":"[10分] ","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/spectator/start_time/set/set_10m"}},{"text":"[15分] ","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/spectator/start_time/set/set_15m"}},{"text":"[60分] ","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/spectator/start_time/set/set_60m"}}]
 
-tellraw @s [{"text":"[←戻る]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/"}}]
+tellraw @s [{"text":"[←戻る]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/spectator/"}}]
 
 tellraw @s {"text":"---------------------"}
