@@ -1,5 +1,5 @@
 #alias entity marker @e[tag=onigokko_marker]
-#alias entity number kaonasi_onigokko_number
+#alias entity number $[number] kaonasi_onigokko__time_display
 
 tellraw @a [{"text":"[OnigokkoDatapack]"},{"text":"\nVersion:1.0.1.0"},{"text":"\nAuthor:kaonasi_biwa","clickEvent":{"action":"open_url","value":"https://twitter.com/kaonasi_biwa"}},{"text":"\nMarker Set"},{"text":"[Click]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:api/summon_marker"}},{"text":"\nSetting"},{"text":"[Click]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/"}}]
 
@@ -42,6 +42,15 @@ scoreboard objectives add kaonasi_onigokko_setting_map dummy
 
 # 多分残り時間(未使用)
 scoreboard objectives add kaonasi_onigokko_game_now dummy
+
+# tick(秒のカウント用)
+scoreboard objectives add kaonasi_onigokko__tick_second dummy
+
+# 残り時間
+scoreboard objectives add kaonasi_onigokko__time_display dummy
+
+# ベントの残り時間
+scoreboard objectives add kaonasi_onigokko_the_skeld__vent_dont_use dummy
 
 # 放出までの時間
 
