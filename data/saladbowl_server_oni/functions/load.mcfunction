@@ -64,3 +64,10 @@ scoreboard objectives add kaonasi_onigokko_setting_start_tousousha__time_ts dumm
 # The Skeldの設定
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting dummy
 execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_the_skeld__vent_setting=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_the_skeld__vent_setting 1
+
+scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_x dummy
+scoreboard players set @a kaonasi_onigokko_the_skeld__vent_setting_x 0
+scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_y dummy
+scoreboard players set @a kaonasi_onigokko_the_skeld__vent_setting_y 0
+scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_z dummy
+scoreboard players set @a kaonasi_onigokko_the_skeld__vent_setting_z 0

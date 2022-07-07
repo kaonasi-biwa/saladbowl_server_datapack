@@ -1,0 +1,70 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "X:"
+                  },
+                  {
+                    "nbt": "X",
+                    "storage": "the_skeld:vent"
+                  },
+                  {
+                    "text": " Y:"
+                  },
+                  {
+                    "nbt": "Y",
+                    "storage": "the_skeld:vent"
+                  },
+                  {
+                    "text": " Z:"
+                  },
+                  {
+                    "nbt": "Z",
+                    "storage": "the_skeld:vent"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{Item:{id:\"minecraft:stick\",Count:1b},Invisible:1b}}"
+              },
+              {
+                "function": "minecraft:copy_nbt",
+                "source": {
+                  "type": "minecraft:storage",
+                  "source": "the_skeld:vent"
+                },
+                "ops": [
+                  {
+                    "source": "X",
+                    "target": "EntityTag.Item.tag.x",
+                    "op": "replace"
+                  },
+                  {
+                    "source": "Y",
+                    "target": "EntityTag.Item.tag.y",
+                    "op": "replace"
+                  },
+                  {
+                    "source": "Z",
+                    "target": "EntityTag.Item.tag.z",
+                    "op": "replace"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
