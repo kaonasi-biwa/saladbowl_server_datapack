@@ -36,7 +36,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{EntityTag:{Item:{id:\"minecraft:stick\",Count:1b},Invisible:1b,Tags:[\"kaonasi_onigokko_vent_temp\"]}"
+                "tag": "{EntityTag:{Item:{id:\"minecraft:stick\",Count:1b},Invisible:1b,Tags:[\"kaonasi_onigokko_vent_temp\"]}}"
               },
               {
                 "function": "minecraft:copy_nbt",
