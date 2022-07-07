@@ -35,7 +35,10 @@ scoreboard objectives add kaonasi_onigokko_setting_role_count dummy
 
 # 勝利条件
 scoreboard objectives add kaonasi_onigokko_setting_win_oni__all_kill dummy
+scoreboard objectives add kaonasi_onigokko_setting_win_oni__run_away dummy
+
 scoreboard objectives add kaonasi_onigokko_setting_win_tousousha__all_mission dummy
+scoreboard objectives add kaonasi_onigokko_setting_win_tousousha__run_away dummy
 
 # マップ
 scoreboard objectives add kaonasi_onigokko_setting_map dummy
