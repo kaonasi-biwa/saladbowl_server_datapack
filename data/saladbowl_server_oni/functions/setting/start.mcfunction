@@ -19,4 +19,4 @@ team join Nigerui @a[tag=kaonasi_roles_tousousha]
 
 
 scoreboard players operation 残り時間 kaonasi_onigokko__time_display = @e[tag=onigokko_marker] kaonasi_onigokko__time_display
-scoreboard players set @a[team=Oni] kaonasi_onigokko_the_skeld__vent_dont_use 1200
+scoreboard players set @a[team=Oni] kaonasi_onigokko_the_skeld__vent_dont_use -1

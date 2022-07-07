@@ -3,3 +3,5 @@ scoreboard players operation @s scoretp_y = @e[tag=kaonasi_onigokko_vent,distanc
 scoreboard players operation @s scoretp_z = @e[tag=kaonasi_onigokko_vent,distance=..0.3,limit=1] kaonasi_onigokko_the_skeld__vent_setting_z
 
 execute positioned 0 0 0 run function em:scoretp
+
+scoreboard players set @a[team=Oni] kaonasi_onigokko_the_skeld__vent_dont_use 1200
