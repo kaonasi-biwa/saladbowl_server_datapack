@@ -11,6 +11,6 @@ tellraw @s [{"text":"Z座標"},{"text":"[設定]","color":"blue","bold":true,"cl
 tellraw @s [{"text":"ベント"},{"text":"[入手]","color":"blue","bold":true,"clickEvent":{"action": "run_command","value": "/function saladbowl_server_oni:setting/map/the_skeld/vent_get/get"}}]
 
 
-tellraw @s [{"text":"[←戻る]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/map/the_skeld"}}]
+tellraw @s [{"text":"[←戻る]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/map/the_skeld/"}}]
 
 tellraw @s {"text":"---------------------"}
