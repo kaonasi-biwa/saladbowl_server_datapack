@@ -68,3 +68,5 @@ execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_the_skeld_
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_x dummy
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_y dummy
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_z dummy
+
+scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_jump minecraft.custom:jump
