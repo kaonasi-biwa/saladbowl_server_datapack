@@ -1,0 +1,1 @@
+function saladbowl_server_oni:game/win/message/tousousha/title
