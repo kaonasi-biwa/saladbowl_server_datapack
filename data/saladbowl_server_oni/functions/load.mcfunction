@@ -52,7 +52,7 @@ scoreboard objectives add kaonasi_onigokko_game_now dummy
 scoreboard objectives add kaonasi_onigokko__tick_second dummy
 
 # 残り時間
-scoreboard objectives add kaonasi_onigokko__time_display dummy
+scoreboard objectives add kaonasi_onigokko__time_display dummy "鬼ごっこ"
 
 # ベントの残り時間
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_dont_use dummy
