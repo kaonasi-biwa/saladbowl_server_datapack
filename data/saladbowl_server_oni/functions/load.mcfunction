@@ -64,17 +64,17 @@ scoreboard objectives add kaonasi_onigokko_win_code dummy
 scoreboard objectives add kaonasi_onigokko_setting_start_time_game dummy
 
 scoreboard objectives add kaonasi_onigokko_setting_start_spectator__time dummy
-execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_spectator__time=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator__time 10
+execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_spectator__time=0..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator__time 10
 scoreboard objectives add kaonasi_onigokko_setting_start_spectator__time_tm dummy
 scoreboard objectives add kaonasi_onigokko_setting_start_spectator__time_ts dummy
 
 scoreboard objectives add kaonasi_onigokko_setting_start_oni__time dummy
-execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_oni__time=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_oni__time 10
+execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_oni__time=0..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_oni__time 10
 scoreboard objectives add kaonasi_onigokko_setting_start_oni__time_tm dummy
 scoreboard objectives add kaonasi_onigokko_setting_start_oni__time_ts dummy
 
 scoreboard objectives add kaonasi_onigokko_setting_start_tousousha__time dummy
-execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_tousousha__time=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_tousousha__time 10
+execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_tousousha__time=0..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_tousousha__time 10
 scoreboard objectives add kaonasi_onigokko_setting_start_tousousha__time_tm dummy
 scoreboard objectives add kaonasi_onigokko_setting_start_tousousha__time_ts dummy
 
