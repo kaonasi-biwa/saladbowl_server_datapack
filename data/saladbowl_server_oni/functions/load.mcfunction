@@ -53,7 +53,6 @@ scoreboard objectives add kaonasi_onigokko__tick_second dummy
 
 # 残り時間
 scoreboard objectives add kaonasi_onigokko__time_display dummy
-scoreboard objectives add kaonasi_onigokko__time_display2 dummy
 
 # ベントの残り時間
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_dont_use dummy

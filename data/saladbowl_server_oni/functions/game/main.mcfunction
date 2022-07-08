@@ -1,4 +1,4 @@
-scoreboard players operation 残り時間 kaonasi_onigokko__time_display -= $1 kaonasi_onigokko__time_display
+scoreboard players operation 残り時間 kaonasi_onigokko__time_display -= $1 kaonasi_onigokko_number
 
 
 
