@@ -26,3 +26,8 @@ scoreboard objectives setdisplay sidebar kaonasi_onigokko__time_display
 scoreboard players operation @a[team=Oni] kaonasi_onigokko_setting_start_time_game = @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_oni__time
 scoreboard players operation @a[team=Nigerui] kaonasi_onigokko_setting_start_time_game = @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_tousousha__time
 scoreboard players operation @a[tag=kaonasi_roles_spectator] kaonasi_onigokko_setting_start_time_game = @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator__time
+
+scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko__tick_second 0
+
+execute as @a[scores={kaonasi_onigokko_setting_start_time_game=1..}] run tellraw @s [{"score":{"name": "@s","objective": "kaonasi_onigokko_setting_start_time_game"}}]
+execute as @a[scores={kaonasi_onigokko_setting_start_time_game=0}] run tellraw @s [{"text": "Go!"}]
