@@ -22,3 +22,7 @@ scoreboard players operation 残り時間 kaonasi_onigokko__time_display = @e[ta
 scoreboard players set @a[team=Oni] kaonasi_onigokko_the_skeld__vent_dont_use -1
 
 scoreboard objectives setdisplay sidebar kaonasi_onigokko__time_display
+
+scoreboard players operation @a[team=Oni] kaonasi_onigokko_setting_start_time_game = @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_oni__time
+scoreboard players operation @a[team=Nigerui] kaonasi_onigokko_setting_start_time_game = @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_tousousha__time
+scoreboard players operation @a[tag=kaonasi_roles_spectator] kaonasi_onigokko_setting_start_time_game = @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator__time

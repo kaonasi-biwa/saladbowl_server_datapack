@@ -61,6 +61,7 @@ scoreboard objectives add kaonasi_onigokko_the_skeld__vent_dont_use dummy
 scoreboard objectives add kaonasi_onigokko_win_code dummy
 
 # 放出までの時間
+scoreboard objectives add kaonasi_onigokko_setting_start_time_game dummy
 
 scoreboard objectives add kaonasi_onigokko_setting_start_spectator__time dummy
 execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_spectator__time=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator__time 10
