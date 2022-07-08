@@ -5,6 +5,8 @@ tellraw @a [{"text":"[OnigokkoDatapack]"},{"text":"\nVersion:1.0.1.0"},{"text":"
 
 forceload add 0 0 0 0
 
+title @a times 20 100 20
+
 # operationで数字が使いたいときもあるじゃないの
 scoreboard objectives add kaonasi_onigokko_number dummy
 scoreboard players set $1 kaonasi_onigokko_number 1
@@ -54,6 +56,9 @@ scoreboard objectives add kaonasi_onigokko__time_display dummy
 
 # ベントの残り時間
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_dont_use dummy
+
+# 勝利コード
+scoreboard objectives add kaonasi_onigokko_win_code dummy
 
 # 放出までの時間
 

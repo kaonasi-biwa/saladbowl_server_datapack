@@ -4,6 +4,8 @@ scoreboard players add @e[tag=onigokko_marker] kaonasi_onigokko__tick_second 1
 
 execute if entity @e[tag=onigokko_marker,scores={kaonasi_onigokko__tick_second=20..}] run function saladbowl_server_oni:game/main
 
+execute if entity @e[tag=onigokko_marker,tag=kaonasi_onigokko_win_tousousha] run function saladbowl_server_oni:game/win/message/oni
+
 
 # The Skeld
 execute if entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_the_skeld__vent_setting=2..3}] as @e[tag=kaonasi_onigokko_vent] at @s run function saladbowl_server_oni:map/the_skeld/vent/
