@@ -1,5 +1,5 @@
-scoreboard players operation 残り時間 kaonasi_onigokko__time_display -= $1 kaonasi_onigokko_number
-scoreboard players operation @a[scores={kaonasi_onigokko_setting_start_time_game=0..}] kaonasi_onigokko_setting_start_time_game -= $1 kaonasi_onigokko_number
+
+
 
 
 execute as @a[scores={kaonasi_onigokko_setting_start_time_game=1..}] run tellraw @s [{"score":{"name": "@s","objective": "kaonasi_onigokko_setting_start_time_game"}}]
@@ -17,3 +17,6 @@ execute if score 残り時間 kaonasi_onigokko__time_display matches 0 if score 
 
 
 scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko__tick_second 0
+
+scoreboard players operation 残り時間 kaonasi_onigokko__time_display -= $1 kaonasi_onigokko_number
+scoreboard players operation @a[scores={kaonasi_onigokko_setting_start_time_game=0..}] kaonasi_onigokko_setting_start_time_game -= $1 kaonasi_onigokko_number
