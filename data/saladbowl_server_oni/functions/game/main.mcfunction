@@ -1,5 +1,6 @@
 execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=1..}] run scoreboard players remove @s kaonasi_onigokko_setting_kill_cool_time_oni_count 1
 execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run tellraw @s [{"text": "キルクールタイムが終わりました"}]
+execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run tag @s add kaonasi_onigokko_can_kill
 execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run scoreboard players set @s kaonasi_onigokko_setting_kill_cool_time_oni_count -1
 
 

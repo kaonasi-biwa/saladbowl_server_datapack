@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+            "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "killer_player",
+                  "predicate": {
+                    "nbt": "{Tags:[\"kaonasi_onigokko_can_kill\"]}"
+                  }
+                }
+              ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "saladbowl_server_oni:game/kill/killed"
+    }
+  }
+  
