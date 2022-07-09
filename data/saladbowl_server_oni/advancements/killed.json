@@ -6,7 +6,7 @@
             "damage": {
                 "source_entity": {
                     "type": "player",
-                    "nbt": "{Tags:[\"kaonasi_onigokko_killed\"]}"
+                    "nbt": "{Tags:[\"kaonasi_onigokko_can_kill\"]}"
                 }
             }
         }
