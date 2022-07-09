@@ -14,3 +14,5 @@ scoreboard players set 逃走者/クルー kaonasi_onigokko_setting_role_display
 scoreboard objectives setdisplay sidebar kaonasi_onigokko_setting_role_display
 
 tag @a remove kaonasi_onigokko_killed
+
+schedule function saladbowl_server_oni:game/win/lobby 10s
