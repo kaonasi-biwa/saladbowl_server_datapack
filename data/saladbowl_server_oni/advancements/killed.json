@@ -3,12 +3,12 @@
       "requirement": {
         "trigger": "minecraft:entity_hurt_player",
         "conditions": {
-          "player": {
-            "targeted_entity": {
-              "type": "minecraft:player",
-              "nbt": "{Tags:[\"kaonasi_onigokko_can_kill\"]}"
+            "damage": {
+                "source_entity": {
+                    "type": "player",
+                    "nbt": "{Tags:[\"kaonasi_onigokko_killed\"]}"
+                }
             }
-          }
         }
       }
     },
