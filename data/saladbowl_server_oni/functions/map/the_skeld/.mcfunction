@@ -4,4 +4,4 @@ execute if entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_the_skeld__ven
 scoreboard players set @a kaonasi_onigokko_the_skeld__vent_setting_jump 0
 
 scoreboard players remove @a[scores={kaonasi_onigokko_the_skeld__vent_dont_use=0..}] kaonasi_onigokko_the_skeld__vent_dont_use 1
-execute if entity @a[scores={kaonasi_onigokko_the_skeld__vent_dont_use=0}] run tellraw @a[scores={kaonasi_onigokko_the_skeld__vent_dont_use=0}] [{"text":"ベントが利用できるようになりました"}]
+execute if entity @a[scores={kaonasi_onigokko_the_skeld__vent_dont_use=0}] run tellraw @a[scores={kaonasi_onigokko_the_skeld__vent_dont_use=0}] [{"text":"ベントが利用できるようになりました","bold": true}]

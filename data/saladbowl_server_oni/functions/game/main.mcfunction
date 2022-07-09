@@ -1,5 +1,5 @@
 execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=1..}] run scoreboard players remove @s kaonasi_onigokko_setting_kill_cool_time_oni_count 1
-execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run tellraw @s [{"text": "キルクールタイムが終わりました"}]
+execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run tellraw @s [{"text": "キルクールタイムが終わりました","bold": true}]
 execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=..0},team=Oni] run tag @s add kaonasi_onigokko_can_kill
 execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run scoreboard players set @s kaonasi_onigokko_setting_kill_cool_time_oni_count -1
 
@@ -7,6 +7,8 @@ execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run 
 
 execute as @a[scores={kaonasi_onigokko_setting_start_time_game=1..}] run tellraw @s [{"score":{"name": "@s","objective": "kaonasi_onigokko_setting_start_time_game"}}]
 execute as @a[scores={kaonasi_onigokko_setting_start_time_game=0}] run tellraw @s [{"text": "Go!"}]
+execute as @a[scores={kaonasi_onigokko_setting_start_time_game=0},tag=kaonasi_roles_tousousha] run tellraw @s [{"text": "あなたは逃走者です","bold": true}]
+execute as @a[scores={kaonasi_onigokko_setting_start_time_game=0},tag=kaonasi_roles_oni] run tellraw @s [{"text": "あなたは鬼です","bold": true}]
 execute if entity @a[scores={kaonasi_onigokko_setting_start_time_game=0}] if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_setting_map matches 1 run tp @a[scores={kaonasi_onigokko_setting_start_time_game=0},tag=kaonasi_roles_spectator] -185 -59 156
 execute if entity @a[scores={kaonasi_onigokko_setting_start_time_game=0}] if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_setting_map matches 1 run spreadplayers -185 156 0 20 false @a[scores={kaonasi_onigokko_setting_start_time_game=0},tag=!kaonasi_roles_spectator]
 execute if entity @a[scores={kaonasi_onigokko_setting_start_time_game=0}] if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_setting_map matches 1 run scoreboard players set @a[scores={kaonasi_onigokko_setting_start_time_game=0}] kaonasi_onigokko_setting_start_time_game -1
