@@ -60,6 +60,10 @@ scoreboard objectives add kaonasi_onigokko_the_skeld__vent_dont_use dummy
 # 勝利コード
 scoreboard objectives add kaonasi_onigokko_win_code dummy
 
+# 復活
+scoreboard objectives add kaonasi_onigokko_setting_revival_tousousha dummy
+scoreboard objectives add kaonasi_onigokko_setting_revival_tousousha_count dummy
+
 # 放出までの時間
 scoreboard objectives add kaonasi_onigokko_setting_start_time_game dummy
 

@@ -1,0 +1,2 @@
+scoreboard players remove @e[tag=onigokko_markerm,scores={kaonasi_onigokko_setting_revival_tousousha=1..}] kaonasi_onigokko_setting_revival_tousousha 1
+function saladbowl_server_oni:setting/role_setting/tousousha/revival/
