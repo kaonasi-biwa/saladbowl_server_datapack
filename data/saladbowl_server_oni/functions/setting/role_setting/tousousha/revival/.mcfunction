@@ -1,6 +1,6 @@
 tellraw @s {"text":"---------------------"}
 
-tellraw @s {"text":"[復活できる回数/陣営ごとの設定/逃走者陣営]"}
+tellraw @s {"text":"[復活できる回数/逃走者陣営]"}
 
 tellraw @s [{"text":"現在の設定:"},{"score":{"name":"@e[tag=onigokko_marker,limit=1]","objective":"kaonasi_onigokko_setting_revival_tousousha"}},{"text":"回"}]
 

@@ -28,5 +28,6 @@ scoreboard players operation @a[team=Nigerui] kaonasi_onigokko_setting_start_tim
 scoreboard players operation @a[tag=kaonasi_roles_spectator] kaonasi_onigokko_setting_start_time_game = @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_spectator__time
 
 scoreboard players operation @a[team=Nigerui] kaonasi_onigokko_setting_revival_tousousha_count = @e[tag=onigokko_marker] kaonasi_onigokko_setting_revival_tousousha
+scoreboard players operation @a[team=Oni] kaonasi_onigokko_setting_kill_cool_time_oni_count = @e[tag=onigokko_marker] kaonasi_onigokko_setting_kill_cool_time_oni
 
 scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko__tick_second 0

@@ -64,6 +64,10 @@ scoreboard objectives add kaonasi_onigokko_win_code dummy
 scoreboard objectives add kaonasi_onigokko_setting_revival_tousousha dummy
 scoreboard objectives add kaonasi_onigokko_setting_revival_tousousha_count dummy
 
+# キルクールタイム
+scoreboard objectives add kaonasi_onigokko_setting_kill_cool_time_oni dummy
+scoreboard objectives add kaonasi_onigokko_setting_kill_cool_time_oni_count dummy
+
 # 放出までの時間
 scoreboard objectives add kaonasi_onigokko_setting_start_time_game dummy
 
