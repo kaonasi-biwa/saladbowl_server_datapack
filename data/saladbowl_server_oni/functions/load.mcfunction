@@ -94,6 +94,7 @@ scoreboard objectives add kaonasi_onigokko_setting_effect__slowness dummy
 scoreboard objectives add kaonasi_onigokko_setting_effect__not_jump_boost dummy
 scoreboard objectives add kaonasi_onigokko_setting_effect__night_vision dummy
 scoreboard objectives add kaonasi_onigokko_setting_effect__blindness dummy
+scoreboard objectives add kaonasi_onigokko_setting_effect__glut dummy
 
 
 # The Skeldの設定
