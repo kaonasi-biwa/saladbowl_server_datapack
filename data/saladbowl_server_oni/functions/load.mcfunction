@@ -1,5 +1,7 @@
 #alias entity marker @e[tag=onigokko_marker]
 #alias entity number $[number] kaonasi_onigokko_number
+#alias entity OniScore $#oni
+#alias entity TousoushaScore $#oni
 
 tellraw @a [{"text":"[OnigokkoDatapack]"},{"text":"\nVersion:1.0.1.0"},{"text":"\nAuthor:kaonasi_biwa","clickEvent":{"action":"open_url","value":"https://twitter.com/kaonasi_biwa"}},{"text":"\nMarker Set"},{"text":"[Click]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:api/summon_marker"}},{"text":"\nSetting"},{"text":"[Click]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/"}}]
 
@@ -85,6 +87,13 @@ scoreboard objectives add kaonasi_onigokko_setting_start_tousousha__time dummy
 execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_start_tousousha__time=0..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_setting_start_tousousha__time 10
 scoreboard objectives add kaonasi_onigokko_setting_start_tousousha__time_tm dummy
 scoreboard objectives add kaonasi_onigokko_setting_start_tousousha__time_ts dummy
+
+#エフェクト
+scoreboard objectives add kaonasi_onigokko_setting_effect__speed dummy
+scoreboard objectives add kaonasi_onigokko_setting_effect__slowness dummy
+scoreboard objectives add kaonasi_onigokko_setting_effect__not_jump_boost dummy
+scoreboard objectives add kaonasi_onigokko_setting_effect__night_vision dummy
+scoreboard objectives add kaonasi_onigokko_setting_effect__blindness dummy
 
 
 # The Skeldの設定
