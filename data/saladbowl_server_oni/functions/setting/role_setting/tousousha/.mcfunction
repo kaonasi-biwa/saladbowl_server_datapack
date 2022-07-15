@@ -10,6 +10,8 @@ tellraw @s [{"text":"テレポートまでの時間"},{"text":"[表示]","color"
 
 tellraw @s [{"text":"復活できる回数"},{"text":"[表示]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/tousousha/revival/"}}]
 
+tellraw @s [{"text":"エフェクト"},{"text":"[表示]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/tousousha/effect/"}}]
+
 tellraw @s [{"text":"[←戻る]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/role_setting/"}}]
 
 tellraw @s {"text":"---------------------"}
