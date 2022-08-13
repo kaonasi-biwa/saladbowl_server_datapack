@@ -10,6 +10,8 @@ tellraw @s [{"text":"ベントの入手"},{"text":"[開く]","color":"blue","bol
 
 tellraw @s [{"text":"脱出可能までの時間"},{"text":"[設定]","color":"blue","bold":true,"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_the_skeld__escape_start <残り時間>"}}]
 
+tellraw @s [{"text":"脱出に必要なtick数"},{"text":"[設定]","color":"blue","bold":true,"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_the_skeld__escape_tick <tick数>"}}]
+
 tellraw @s [{"text":"[←戻る]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/map/"}}]
 
 tellraw @s {"text":"---------------------"}
