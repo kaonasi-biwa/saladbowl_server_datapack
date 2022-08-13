@@ -8,7 +8,7 @@ execute if entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_the_skeld__ven
 
 tellraw @s [{"text":"ベントの入手"},{"text":"[開く]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/map/the_skeld/vent_get/"}}]
 
-tellraw @s [{"text":"脱出可能までの時間"},{"text":"[設定]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/scoreboard players set @s kaonasi_onigokko_the_skeld__escape_start <残り時間>"}}]
+tellraw @s [{"text":"脱出可能までの時間"},{"text":"[設定]","color":"blue","bold":true,"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s kaonasi_onigokko_the_skeld__escape_start <残り時間>"}}]
 
 tellraw @s [{"text":"[←戻る]","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function saladbowl_server_oni:setting/map/"}}]
 
