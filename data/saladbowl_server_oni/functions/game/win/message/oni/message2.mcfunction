@@ -1,5 +1,9 @@
-function saladbowl_server_oni:game/win/message/oni/title
+title @a title {"text":"鬼の勝利"}
 
-tellraw @a [{"text":"理由:逃走者を全員キルしたため"}]
+tellraw @a [{"text":"---------------------"},{"text":"\n鬼の勝利\n"}]
 
-function saladbowl_server_oni:game/win/message/oni/title2
+execute if entity @a[tag=kaonasi_roles_oni] run tellraw @a [{"text": "\n鬼:","bold": true},{"selector":"@a[tag=kaonasi_roles_oni]"}]
+
+tellraw @a [{"text":"---------------------"}]
+
+function saladbowl_server_oni:game/win/reset

@@ -34,3 +34,5 @@ scoreboard players set @a[team=!Oni] kaonasi_onigokko_setting_kill_cool_time_oni
 scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko__tick_second 0
 
 gamemode adventure @a[tag=!kaonasi_roles_spectator]
+
+execute as @a run function saladbowl_server_oni:item/

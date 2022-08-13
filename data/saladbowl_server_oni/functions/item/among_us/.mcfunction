@@ -1,0 +1,2 @@
+execute if entity @s[tag=kaonasi_roles_tousousha] run function saladbowl_server_oni:item/among_us/tousousha/
+execute if entity @s[tag=kaonasi_roles_oni] run function saladbowl_server_oni:item/among_us/oni/

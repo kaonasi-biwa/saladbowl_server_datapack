@@ -1,0 +1,1 @@
+execute if entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_setting_map=1}] run function saladbowl_server_oni:item/among_us/
