@@ -3,7 +3,7 @@ execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run 
 execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=..0},team=Oni] run tag @s add kaonasi_onigokko_can_kill
 execute as @a[scores={kaonasi_onigokko_setting_kill_cool_time_oni_count=0}] run scoreboard players set @s kaonasi_onigokko_setting_kill_cool_time_oni_count -1
 
-execute if score 残り時間 kaonasi_onigokko__tick_display = @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_the_skeld__escape_start run fill -186 -59 154 -182 -59 158 diamond_block
+execute if score 残り時間 kaonasi_onigokko__time_display = @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_the_skeld__escape_start run fill -186 -59 154 -182 -59 158 diamond_block
 
 
 execute as @a[scores={kaonasi_onigokko_setting_start_time_game=1..}] run tellraw @s [{"score":{"name": "@s","objective": "kaonasi_onigokko_setting_start_time_game"}}]
