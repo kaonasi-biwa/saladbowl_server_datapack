@@ -106,3 +106,5 @@ scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_y dummy
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_z dummy
 
 scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_jump minecraft.custom:jump
+
+scoreboard objectives add kaonasi_onigokko_the_skeld__escape_start dummy

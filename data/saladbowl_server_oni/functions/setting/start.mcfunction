@@ -35,4 +35,6 @@ scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko__tick_second 0
 
 gamemode adventure @a[tag=!kaonasi_roles_spectator]
 
+fill -186 -59 154 -182 -59 158 air replace
+
 execute as @a run function saladbowl_server_oni:item/
