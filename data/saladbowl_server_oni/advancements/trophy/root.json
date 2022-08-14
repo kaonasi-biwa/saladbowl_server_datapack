@@ -5,12 +5,12 @@
       },
       "title": "鬼ごっこサーバーへようこそ！",
       "description": "このサーバーにやってくる",
-      "background": "iron_block",
+      "background": "minecraft:textures/block/iron_block.png",
       "frame": "task"
     },
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:location"
       }
     },
     "rewards": {
