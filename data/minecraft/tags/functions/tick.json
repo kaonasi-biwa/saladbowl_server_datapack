@@ -1,5 +1,6 @@
 {
     "values": [
-        "saladbowl_server_oni:tick"
+        "saladbowl_server_oni:tick",
+        "saladbowl_server_oni_trophy:tick"
     ]
 }

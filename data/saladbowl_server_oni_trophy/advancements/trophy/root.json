@@ -14,6 +14,6 @@
       }
     },
     "rewards": {
-        "function": "saladbowl_server_oni:trophy/root"
+        "function": "saladbowl_server_oni_trophy:trophy/root"
     }
   }
