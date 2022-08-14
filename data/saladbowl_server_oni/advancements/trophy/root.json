@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head"
+      },
+      "title": "鬼ごっこサーバーへようこそ！",
+      "description": "このサーバーにやってくる",
+      "background": "iron_block",
+      "frame": "task"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+        "function": "saladbowl_server_oni:trophy/root"
+    }
+  }
