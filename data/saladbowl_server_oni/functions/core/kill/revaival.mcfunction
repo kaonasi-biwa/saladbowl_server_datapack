@@ -1,0 +1,2 @@
+tag @s remove kaonasi_onigokko_killed
+function #saladbowl_server_oni:game_starting_tp

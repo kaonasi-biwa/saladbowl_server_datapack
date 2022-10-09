@@ -1,6 +1,7 @@
 {
     "values": [
         "saladbowl_server_oni:load",
-        "_em:_init"
+        "_em:_init",
+        "saladbowl_ferver_oni_the_skeld:load"
     ]
 }

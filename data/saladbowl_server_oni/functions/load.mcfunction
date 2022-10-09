@@ -56,9 +56,6 @@ scoreboard objectives add kaonasi_onigokko__tick_second dummy
 # 残り時間
 scoreboard objectives add kaonasi_onigokko__time_display dummy "鬼ごっこ"
 
-# ベントの残り時間
-scoreboard objectives add kaonasi_onigokko_the_skeld__vent_dont_use dummy
-
 # 勝利コード
 scoreboard objectives add kaonasi_onigokko_win_code dummy
 
@@ -95,17 +92,3 @@ scoreboard objectives add kaonasi_onigokko_setting_effect__not_jump_boost dummy
 scoreboard objectives add kaonasi_onigokko_setting_effect__night_vision dummy
 scoreboard objectives add kaonasi_onigokko_setting_effect__blindness dummy
 scoreboard objectives add kaonasi_onigokko_setting_effect__glut dummy
-
-
-# The Skeldの設定
-scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting dummy
-execute unless entity @e[tag=onigokko_marker,scores={kaonasi_onigokko_the_skeld__vent_setting=1..}] run scoreboard players set @e[tag=onigokko_marker] kaonasi_onigokko_the_skeld__vent_setting 1
-
-scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_x dummy
-scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_y dummy
-scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_z dummy
-
-scoreboard objectives add kaonasi_onigokko_the_skeld__vent_setting_jump minecraft.custom:jump
-
-scoreboard objectives add kaonasi_onigokko_the_skeld__escape_start dummy
-scoreboard objectives add kaonasi_onigokko_the_skeld__escape_tick dummy

@@ -1,0 +1,2 @@
+execute if score @s kaonasi_onigokko_setting_revival_tousousha_count matches 0 run function saladbowl_server_oni:core/kill/spectator
+execute unless score @s kaonasi_onigokko_setting_revival_tousousha_count matches 0 run function saladbowl_server_oni:core/kill/revaival_tp

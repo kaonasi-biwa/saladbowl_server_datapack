@@ -1,0 +1,8 @@
+{
+    "values": [
+        "saladbowl_server_oni:core/win_check/tousousha_escape",
+        "saladbowl_server_oni:core/win_check/oni_run_away",
+        "saladbowl_server_oni:core/win_check/oni_all_kill",
+        "saladbowl_server_oni:core/win_check/tousousha_run_away"
+    ]
+}

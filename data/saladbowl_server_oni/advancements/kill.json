@@ -12,7 +12,7 @@
       }
     },
     "rewards": {
-      "function": "saladbowl_server_oni:game/kill/kill"
+      "function": "saladbowl_server_oni:core/kill/kill"
     }
   }
   

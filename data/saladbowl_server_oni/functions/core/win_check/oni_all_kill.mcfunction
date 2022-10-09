@@ -1,0 +1,2 @@
+#全員kill(鬼)
+execute if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_setting_win_oni__all_kill matches 1 unless entity @a[team=Nigerui,tag=!kaonasi_onigokko_killed] run function saladbowl_server_oni:core/win_check/oni_all_kill_exe

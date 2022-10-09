@@ -1,0 +1,2 @@
+#逃げ切り(逃走者)
+execute if score 残り時間 kaonasi_onigokko__time_display matches 0 if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_setting_win_tousousha__run_away matches 1 run function saladbowl_server_oni:core/win_check/tousousha_run_away_exe
