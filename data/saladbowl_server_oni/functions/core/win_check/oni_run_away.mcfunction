@@ -1,2 +1,2 @@
 #脱出できず(鬼)
-execute if score 残り時間 kaonasi_onigokko__time_display matches 0 if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_setting_win_oni__run_away matches 1 run function saladbowl_server_oni:core/win_check/oni_run_away_exe
+execute unless score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_win_code matches 0 if score 残り時間 kaonasi_onigokko__time_display matches 0 if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_setting_win_oni__run_away matches 1 run function saladbowl_server_oni:core/win_check/oni_run_away_exe

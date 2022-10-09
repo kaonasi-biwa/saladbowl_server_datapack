@@ -1,0 +1,4 @@
+execute if entity @e[tag=onigokko_marker,tag=kaonasi_onigokko_win_tousousha] if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_win_code matches 2 run function saladbowl_server_oni:messages/win/message/tousousha/message2
+execute if entity @e[tag=onigokko_marker,tag=kaonasi_onigokko_win_oni] if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_win_code matches 1 run function saladbowl_server_oni:messages/win/message/oni/message1
+execute if entity @e[tag=onigokko_marker,tag=kaonasi_onigokko_win_oni] if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_win_code matches 2 run function saladbowl_server_oni:messages/win/message/oni/message2
+execute if entity @e[tag=onigokko_marker,tag=kaonasi_onigokko_win_tousousha] if score @e[tag=onigokko_marker,limit=1] kaonasi_onigokko_win_code matches 1 run function saladbowl_server_oni:messages/win/message/tousousha/message1
